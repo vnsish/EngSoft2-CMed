@@ -6,7 +6,7 @@ public class Medico {
 	
 	private String CPF;
 	private String CRM;
-	private int Nome;
+	private String Nome;
 	
 	public Consulta marcarConsulta(Paciente paciente, Date data)
 	{
@@ -29,15 +29,15 @@ public class Medico {
 		CRM = cRM;
 	}
 
-	public int getNome() {
+	public String getNome() {
 		return Nome;
 	}
 
-	public void setNome(int nome) {
+	public void setNome(String nome) {
 		Nome = nome;
 	}
 
-	public Medico(String cPF, String cRM, int nome) {
+	public Medico(String cPF, String cRM, String nome) {
 		super();
 		CPF = cPF;
 		CRM = cRM;

@@ -15,7 +15,13 @@ public class Paciente {
 	}
 	public void setNome(String nome) {
 		Nome = nome;
+	}
+	public Paciente(String cPF, String nome) {
+		super();
+		CPF = cPF;
+		Nome = nome;
 	} 
+	
 	
 	
 
