@@ -6,6 +6,8 @@ public class Diagnostico {
 	private Medico medico;
 	private Paciente paciente;
 	private String laudo;
+	private Consulta consulta;
+	
 	public int getID() {
 		return ID;
 	}
@@ -29,6 +31,21 @@ public class Diagnostico {
 	}
 	public void setLaudo(String laudo) {
 		this.laudo = laudo;
+	}
+	public Consulta getConsulta() {
+		return consulta;
+	}
+	public void setConsulta(Consulta consulta) {
+		this.consulta = consulta;
+	}
+	
+	
+	public Diagnostico(int iD, Medico medico, Paciente paciente, Consulta consulta) {
+		super();
+		ID = iD;
+		this.medico = medico;
+		this.paciente = paciente;
+		this.consulta = consulta;
 	}
 	
 	
