@@ -2,6 +2,7 @@ package ui;
 
 import dao.InterfaceMedicoDAO;
 
+
 public class BuscaMedico {
 
 	private InterfaceMedicoDAO dao;

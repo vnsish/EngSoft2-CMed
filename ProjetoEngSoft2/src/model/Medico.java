@@ -44,7 +44,12 @@ public class Medico {
 		Nome = nome;
 	}
 	
-	
+	@Override
+	public String toString() {
+		
+		return CRM + " - " + Nome;
+		
+	}
 
 	
 }
